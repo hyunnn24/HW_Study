@@ -5,7 +5,7 @@ import streamlit as st
 
 
 #페이지 
-page = st.sidebar.selectbox("HW STUDY"), ["Abstract","Autodesek Fusion","PCB Basic","Projects (Open Source)", "Advanced (Optional)"])
+page = st.sidebar.selectbox("HW STUDY"), ["Abstract","Autodesek Fusion","PCB Basic","Projects (Open Source)", "Advanced (Optional)"]
 st.sidebar.text("  made by hyunnn :kr: \n  CERT-IS PKNU \n  2024.09.13")
 
 if page == "Abstract":
